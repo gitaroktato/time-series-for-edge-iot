@@ -16,6 +16,10 @@ This presentation provides an in-depth view of the efficient time series data an
 ### Hardware
 - https://www.aliexpress.com/item/1005006287642920.html
 
+#### Raspberry Pi 64bit
+- https://forums.raspberrypi.com/viewtopic.php?t=202487
+- https://github.com/bamarni/pi64/blob/master/README.md
+
 ### InfluxDB 
 - https://community.home-assistant.io/t/influxdb-with-grafana-on-sd-card/468258
 - https://community.influxdata.com/t/what-options-do-i-have-to-help-reduce-io-on-an-embedded-system-with-sd-card/5926
