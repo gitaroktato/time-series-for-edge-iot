@@ -6,6 +6,28 @@ This presentation provides an in-depth view of the efficient time series data an
 
 
 # References
+## Slides
+- https://docs.google.com/presentation/d/16raJ8wr9D00qKgT_26fGRbnpJajOwEBHkEU76utnVOk/edit?usp=sharing
+
 ## Wear Leveling
 - https://industrial.adata.com/en/technology/Wear-Leveling
+- https://en.wikipedia.org/wiki/Wear_leveling
+
+### Hardware
 - https://www.aliexpress.com/item/1005006287642920.html
+
+### InfluxDB 
+- https://community.home-assistant.io/t/influxdb-with-grafana-on-sd-card/468258
+- https://community.influxdata.com/t/what-options-do-i-have-to-help-reduce-io-on-an-embedded-system-with-sd-card/5926
+- https://github.com/influxdata/influxdb/issues/23040
+
+### SQLite
+- https://www.sqlite.org/lockingv3.html#rollback
+
+### Micro SD
+- [Micro SD card comparison](https://www.reddit.com/r/raspberry_pi/comments/xnkp71/reliability_of_microsd_endurance_cards_compared_w/)
+- [Estimated write endurance without wear leveling](https://forums.raspberrypi.com/viewtopic.php?t=21281)
+
+## AI Acceleration
+- https://www.seeedstudio.com/blog/2024/07/16/raspberry-pi-ai-kit-vs-coral-usb-accelerator-vs-coral-m-2-accelerator-with-dual-edge-tpu/
+- https://sbcnexus.com/articles/71202049/coral-tpu-vs-hailo-the-ultimate-showdown-for-edge-ai-dominance/
