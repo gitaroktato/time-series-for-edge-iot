@@ -182,7 +182,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="monolithic" id="aAlipYzDouiOAT3cnE4W">
-    <mxGraphModel dx="2762" dy="2132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2899" dy="2206" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="fuz0F2iz5rokdTJH15qF-0" />
         <object label="context" id="B5v76Ol8uoSBR1nthQkc-19">
@@ -239,7 +239,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fuz0F2iz5rokdTJH15qF-14" value="&lt;b&gt;S3&lt;/b&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" vertex="1" parent="fuz0F2iz5rokdTJH15qF-1">
-          <mxGeometry x="-63.5" y="-716" width="76.5" height="93" as="geometry" />
+          <mxGeometry x="-63.5" y="-727" width="76.5" height="93" as="geometry" />
         </mxCell>
         <mxCell id="fuz0F2iz5rokdTJH15qF-15" value="" style="dashed=0;html=1;shape=mxgraph.aws3.cloud;fillColor=#F58536;gradientColor=none;dashed=0;" vertex="1" parent="fuz0F2iz5rokdTJH15qF-1">
           <mxGeometry x="-100" y="-936" width="52" height="36" as="geometry" />
@@ -347,7 +347,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="time series" id="ETmcX8cLnEg_2TgZ0h1p">
-    <mxGraphModel dx="2643" dy="2068" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2284" dy="1874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="aMe0Odsz0zXN0X-JtN2R-0" />
         <object label="context" id="aMe0Odsz0zXN0X-JtN2R-1">
@@ -402,7 +402,7 @@
         </mxCell>
         <mxCell id="aMe0Odsz0zXN0X-JtN2R-14" value="binaries" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="aMe0Odsz0zXN0X-JtN2R-13">
           <mxGeometry x="0.2453" y="1" relative="1" as="geometry">
-            <mxPoint x="-19" y="14" as="offset" />
+            <mxPoint x="-16" y="11" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aMe0Odsz0zXN0X-JtN2R-15" value="&lt;b&gt;S3&lt;/b&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" vertex="1" parent="aMe0Odsz0zXN0X-JtN2R-3">
@@ -493,7 +493,7 @@
         <mxCell id="vRz0LP86hQPsDwkOGuW5-4" value="&lt;div&gt;detect events&lt;/div&gt;&lt;div&gt;[flux]&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aMe0Odsz0zXN0X-JtN2R-25">
           <mxGeometry x="-510" y="-870" as="geometry" />
         </mxCell>
-        <mxCell id="WUP44dYZhgD6vn_aybOI-3" value="time series data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="aMe0Odsz0zXN0X-JtN2R-25">
+        <mxCell id="WUP44dYZhgD6vn_aybOI-3" value="time series [influxdb]" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="aMe0Odsz0zXN0X-JtN2R-25">
           <mxGeometry x="-650" y="-920" width="90" height="100" as="geometry" />
         </mxCell>
       </root>
