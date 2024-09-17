@@ -35,3 +35,13 @@ This presentation provides an in-depth view of the efficient time series data an
 ## AI Acceleration
 - https://www.seeedstudio.com/blog/2024/07/16/raspberry-pi-ai-kit-vs-coral-usb-accelerator-vs-coral-m-2-accelerator-with-dual-edge-tpu/
 - https://sbcnexus.com/articles/71202049/coral-tpu-vs-hailo-the-ultimate-showdown-for-edge-ai-dominance/
+
+## Arduino development
+- https://linuxhint.com/connect-arduino-nano-to-raspberry-pi/
+
+## Joystick module
+- https://arduinomodules.info/ky-023-joystick-dual-axis-module/
+- https://github.com/timwaizenegger/raspberrypi-examples/blob/master/sensor-thumb-joystick/ky023.py
+
+## 3D Designs
+- https://www.thingiverse.com/thing:2583343
