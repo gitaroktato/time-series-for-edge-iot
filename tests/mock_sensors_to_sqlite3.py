@@ -16,7 +16,7 @@ def create_tables(conn):
     cur = conn.cursor()
     cur.execute(sql)
     index_sql = """
-    CREATE INDEX idx_sensors_timestamp ON sensors (timestamp);
+    CREATE INDEX IF NOT EXISTS idx_sensors_timestamp ON sensors (timestamp);
     """
     cur.execute(index_sql)
     conn.commit()
