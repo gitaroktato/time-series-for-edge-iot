@@ -45,3 +45,6 @@ This presentation provides an in-depth view of the efficient time series data an
 
 ## 3D Designs
 - https://www.thingiverse.com/thing:2583343
+- https://www.thingiverse.com/thing:220585
+- https://www.thingiverse.com/thing:994827/files
+
