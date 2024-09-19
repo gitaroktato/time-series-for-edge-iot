@@ -27,8 +27,11 @@ def main():
             if ser.in_waiting > 0:
                 try:
                     line = ser.readline().decode('utf-8').rstrip()
-                    write_api.write(bucket=bucket, org=org, record=line)
-                    print(line)
+                    if (line.startswith("controller")):
+                        write_api.write(bucket=bucket, org=org, record=line)
+                        print(line)
+                    else:
+                        print(f"Skipping unknown sensor data - {line}")
                 except (ApiException, UnicodeDecodeError):
                     print(f"Failed to write - {line}")
 

@@ -5,7 +5,7 @@
  * then off for one second, repeatedly.
  */
 #include <Arduino.h>
-#define TICK_RATE 500
+#define TICK_RATE 250
 
 // Set LED_BUILTIN if it is not defined by Arduino framework
 // #define LED_BUILTIN 13
