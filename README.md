@@ -50,3 +50,9 @@ This presentation provides an in-depth view of the efficient time series data an
 - https://www.thingiverse.com/thing:220585
 - https://www.thingiverse.com/thing:994827/files
 
+## Gyro sensor
+- https://randomnerdtutorials.com/arduino-mpu-6050-accelerometer-gyroscope/
+
+## Joystick
+- https://arduinomodules.info/ky-023-joystick-dual-axis-module/
+
