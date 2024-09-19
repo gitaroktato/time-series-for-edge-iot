@@ -13,12 +13,17 @@ void setup()
 {
   // initialize LED digital pin as an output.
   pinMode(LED_BUILTIN, OUTPUT);
+  Serial.begin(9600);
 }
 
 void loop()
 {
   // turn the LED on (HIGH is the voltage level)
   digitalWrite(LED_BUILTIN, HIGH);
+
+  // Dummy sensor data
+  Serial.println("accel x=3,y=5,z=2");
+  Serial.println("gyro x=3,y=5,z=2");
 
   // wait for a second
   delay(1000);

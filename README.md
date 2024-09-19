@@ -4,6 +4,7 @@ In this presentation I'm going to go through the technology evaluation step-by-s
 
 This presentation provides an in-depth view of the efficient time series data analysis in the context of edge computing and Internet of Things (IoT). It focuses on the challenges and solutions of managing and analyzing large-scale time series data in real-time. The presentation also explores current trends, methods, and potential advantages of employing time series analysis at the edge of the network, specifically for IoT applications. The ultimate goal is to improve data accuracy, reduce latency, enhance security and privacy, and optimize resource allocation for better decision-making processes in various IoT systems.
 
+![look-and-feel](img/look-and-feel.png)
 
 # References
 ## Slides
@@ -38,6 +39,7 @@ This presentation provides an in-depth view of the efficient time series data an
 
 ## Arduino development
 - https://linuxhint.com/connect-arduino-nano-to-raspberry-pi/
+- https://forum.arduino.cc/t/baud-rate-max-absolute/447715
 
 ## Joystick module
 - https://arduinomodules.info/ky-023-joystick-dual-axis-module/
