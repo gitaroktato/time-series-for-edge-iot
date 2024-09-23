@@ -87,7 +87,6 @@ void read_and_print_joystick_state() {
 }
 
 void switch_builtin_led() {
-  read_and_print_joystick_state();
   ledState = !ledState;
   // turn the LED off by making the voltage LOW
   digitalWrite(LED_BUILTIN, ledState);
@@ -105,6 +104,7 @@ void read_and_print_gyroscope_state() {
 void loop() {
   read_and_print_gyroscope_state();
   read_and_print_joystick_state();
+  switch_builtin_led();
    // wait for TICK_RATE
   delay(TICK_RATE);
 }

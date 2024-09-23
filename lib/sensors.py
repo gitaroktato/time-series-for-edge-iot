@@ -1,7 +1,11 @@
 import serial
 
 class Reader:
-    __line_protocol_prefixes = ("controller", "accel", "gyro")
+    __line_protocol_prefixes = (
+        "controller",
+        # "accel",
+        "gyro"
+    )
     def __init__(
             self,
             device: str = '/dev/ttyACM0',

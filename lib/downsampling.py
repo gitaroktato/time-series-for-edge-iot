@@ -1,3 +1,5 @@
+from collections.abc import Callable
+
 class Downsampler:
     def __init__(self, period: int) -> None:
         self.__period = period
@@ -9,7 +11,7 @@ class Downsampler:
             print(text)
             self.__counter = 0
 
-    def call(self, callback: callable[[None], None]) -> None:
+    def call(self, callback: Callable[[None], None]) -> None:
         self.__counter += 1
         if (self.__counter % self.__period == 0):
             callback()
