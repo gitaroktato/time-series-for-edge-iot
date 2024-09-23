@@ -52,6 +52,7 @@ This presentation provides an in-depth view of the efficient time series data an
 
 ## Gyro sensor
 - https://randomnerdtutorials.com/arduino-mpu-6050-accelerometer-gyroscope/
+- https://mschoeffler.com/2017/10/05/tutorial-how-to-use-the-gy-521-module-mpu-6050-breakout-board-with-the-arduino-uno/
 
 ## Joystick
 - https://arduinomodules.info/ky-023-joystick-dual-axis-module/
