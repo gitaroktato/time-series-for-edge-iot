@@ -13,7 +13,7 @@
     #include "Wire.h"
 #endif
 // Rate of reading sensor data
-#define TICK_RATE 1000
+#define TICK_RATE 100
 // class default I2C address is 0x68
 // specific I2C addresses may be passed as a parameter here
 // AD0 low = 0x68 (default for InvenSense evaluation board)
@@ -94,19 +94,8 @@ void switch_builtin_led() {
 }
 
 void read_and_print_gyroscope_state() {
-  // read raw accel/gyro measurements from device
-    mpu.getMotion6(
-      &accelerometer_x,
-      &accelerometer_y,
-      &accelerometer_z,
-      &gyroscope_x,
-      &gyroscope_y,
-      &gyroscope_z
-    );
-
-    // these methods (and a few others) are also available
-    //mpu.getAcceleration(&ax, &ay, &az);
-    //mpu.getRotation(&gx, &gy, &gz);
+    mpu.getAcceleration(&accelerometer_x, &accelerometer_y, &accelerometer_z);
+    mpu.getRotation(&gyroscope_x, &gyroscope_y, &gyroscope_z);
 
     // Gyro data - line protocol somewhat
     Serial.println("accel x=" + String(accelerometer_x) + ",y=" + String(accelerometer_y) + ",z=" + String(accelerometer_z));
