@@ -6,6 +6,13 @@ This presentation provides an in-depth view of the efficient time series data an
 
 ![look-and-feel](img/look-and-feel.png)
 
+# Querying memory allocation from the OS
+```shell
+cat /proc/$(pgrep influxd)/status
+pmap -x $(pgrep influxd)
+ps -eo pid,vsz,rss,comm | grep influxd
+```
+
 # References
 ## Slides
 - https://docs.google.com/presentation/d/16raJ8wr9D00qKgT_26fGRbnpJajOwEBHkEU76utnVOk/edit?usp=sharing
