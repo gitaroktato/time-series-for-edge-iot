@@ -10,6 +10,17 @@ token = "WAlkSZnxrLK3dRGDKHKSbfmVPFOCS3iX_oPEvsOb-_0cVR7LacuKh3KWwCHxqNFECwfQir5
 # Store the URL of your InfluxDB instance
 url = "http://localhost:8086"
 
+def write_options_batch(): 
+    return WriteOptions(
+        batch_size=5000,
+        flush_interval=10_000,
+        jitter_interval=2_000,
+        retry_interval=5_000,
+        max_retries=5,
+        max_retry_delay=30_000,
+        max_close_wait=300_000,
+        exponential_base=2
+    )
 
 def main():
     with InfluxDBClient(
