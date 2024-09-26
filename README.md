@@ -13,6 +13,11 @@ pmap -x $(pgrep influxd)
 ps -eo pid,vsz,rss,comm | grep influxd
 ```
 
+# Recording
+```shell
+env LIBGL_ALWAYS_SOFTWARE=true obs
+```
+
 # References
 ## Slides
 - https://docs.google.com/presentation/d/16raJ8wr9D00qKgT_26fGRbnpJajOwEBHkEU76utnVOk/edit?usp=sharing
