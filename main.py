@@ -18,7 +18,7 @@ def write_and_print(write_api: WriteApi, line: str) -> None:
     print(line)
 
 def main() -> None:
-    downsampler = Downsampler(15)
+    downsampler = Downsampler(10)
     sensor_reader = Reader()
     with InfluxDBClient(
        url=url,
