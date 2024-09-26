@@ -69,3 +69,5 @@ env LIBGL_ALWAYS_SOFTWARE=true obs
 ## Joystick
 - https://arduinomodules.info/ky-023-joystick-dual-axis-module/
 
+## Binary shrink
+https://github.com/influxdata/influxdb/issues/18866
