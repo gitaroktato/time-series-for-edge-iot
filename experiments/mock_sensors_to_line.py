@@ -7,6 +7,7 @@ from influxdb_client.client.write_api import SYNCHRONOUS, ASYNCHRONOUS, WriteOpt
 bucket = "throughput"
 org = "docs"
 token = "WAlkSZnxrLK3dRGDKHKSbfmVPFOCS3iX_oPEvsOb-_0cVR7LacuKh3KWwCHxqNFECwfQir5GinSBOFJ7ubjA5A=="
+throughput_token = "Ew-fkkok31ckItyiPIgaT5HHMejAZ4lUdBr3qW_OSUDhwajWaYi4s1jjrIV1Yo2UXz4CnotlKANbbo9f2O7ecw=="
 # Store the URL of your InfluxDB instance
 url = "http://localhost:8086"
 

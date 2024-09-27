@@ -24,6 +24,13 @@ env LIBGL_ALWAYS_SOFTWARE=true obs
 .venv/bin/python -u ./just_print.py | grep -v DEBUG
 ```
 
+# Experiments
+## Latency
+Preset time range for latency tests - 2024-09-27 07:55:49 -> 2024-09-27 08:10:49
+
+## Throughput
+SYNCHRONOUS/ASYNCHRONOUS/Batch 2024-09-27 13:53:05 -> 2024-09-27 14:01:11
+
 # References
 ## Slides
 - https://docs.google.com/presentation/d/16raJ8wr9D00qKgT_26fGRbnpJajOwEBHkEU76utnVOk/edit?usp=sharing
@@ -81,5 +88,8 @@ env LIBGL_ALWAYS_SOFTWARE=true obs
 ## Profiling with `pmap`
 - https://www.redhat.com/sysadmin/pmap-command
 
-## Technology Trends
+## Virtual Address Space - Wikipedia
+- https://en.wikipedia.org/wiki/Virtual_address_space
+
+## Technology Trends - Time Series
 - https://db-engines.com/en/ranking/time+series+dbms
