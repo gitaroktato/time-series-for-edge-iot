@@ -82,8 +82,7 @@ void read_and_print_joystick_state() {
   int x = analogRead(A0);	// read X axis value [0..1023]
   int y = analogRead(A1);	// read Y axis value [0..1023]
   // Joystick data - line protocol somewhat
-  Serial.print("controller x=" + String(x));
-  Serial.println(",y=" + String(y));
+  Serial.println("controller x=" + String(x) + ",y=" + String(y));
 }
 
 void switch_builtin_led() {
