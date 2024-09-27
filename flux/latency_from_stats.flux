@@ -1,6 +1,7 @@
 latency = from(bucket: "latency")
   |> range(start: v.timeRangeStart, stop: v.timeRangeStop)
   |> filter(fn: (r) => r._measurement == "gyro") 
+  |> filter(fn: (r) => r._field == "x") 
  
 latency
 |> yield(name: "current")

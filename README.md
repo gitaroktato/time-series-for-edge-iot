@@ -9,7 +9,7 @@ This presentation provides an in-depth view of the efficient time series data an
 # Querying memory allocation from the OS
 ```shell
 cat /proc/$(pgrep influxd)/status
-pmap -x $(pgrep influxd)
+pmap -px $(pgrep influxd)
 ps -eo pid,vsz,rss,comm | grep influxd
 ```
 
@@ -75,4 +75,10 @@ env LIBGL_ALWAYS_SOFTWARE=true obs
 - https://arduinomodules.info/ky-023-joystick-dual-axis-module/
 
 ## Binary shrink
-https://github.com/influxdata/influxdb/issues/18866
+- https://github.com/influxdata/influxdb/issues/18866
+
+## Profiling with `pmap`
+- https://www.redhat.com/sysadmin/pmap-command
+
+## Technology Trends
+- https://db-engines.com/en/ranking/time+series+dbms

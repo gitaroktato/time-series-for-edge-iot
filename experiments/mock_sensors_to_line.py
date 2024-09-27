@@ -4,7 +4,7 @@ from time import sleep
 from influxdb_client import InfluxDBClient
 from influxdb_client.client.write_api import SYNCHRONOUS, ASYNCHRONOUS, WriteOptions
 
-bucket = "sensors"
+bucket = "throughput"
 org = "docs"
 token = "WAlkSZnxrLK3dRGDKHKSbfmVPFOCS3iX_oPEvsOb-_0cVR7LacuKh3KWwCHxqNFECwfQir5GinSBOFJ7ubjA5A=="
 # Store the URL of your InfluxDB instance
@@ -37,7 +37,7 @@ def main():
             write_api.write(bucket=bucket, org=org, record=accel_line)
             print(f"WRITE: {gyro_line}")
             print(f"WRITE: {accel_line}")
-            sleep(1)
+            # sleep(1)
 
 
 if __name__ == '__main__':
