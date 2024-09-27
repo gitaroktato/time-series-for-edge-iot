@@ -18,6 +18,11 @@ ps -eo pid,vsz,rss,comm | grep influxd
 env LIBGL_ALWAYS_SOFTWARE=true obs
 ```
 
+# Printing just line protocol
+```shell
+.venv/bin/python -u ./just_print.py | grep -v DEBUG
+```
+
 # References
 ## Slides
 - https://docs.google.com/presentation/d/16raJ8wr9D00qKgT_26fGRbnpJajOwEBHkEU76utnVOk/edit?usp=sharing
