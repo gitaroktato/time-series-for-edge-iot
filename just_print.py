@@ -3,7 +3,7 @@ from lib.downsampling import Downsampler
 from lib.sensors import Reader
 
 def main() -> None:
-    downsampler = Downsampler(10)
+    downsampler = Downsampler(7)
     sensor_reader = Reader()
     while True:
         if sensor_reader.has_lines():
