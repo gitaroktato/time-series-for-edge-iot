@@ -24,7 +24,7 @@ env LIBGL_ALWAYS_SOFTWARE=true obs
 .venv/bin/python -u ./just_print.py | grep -v DEBUG
 ```
 
-# Experiments
+# Experiment Timeframes
 ## Latency
 Preset time range for latency tests - 2024-09-27 07:55:49 -> 2024-09-27 08:10:49
 
