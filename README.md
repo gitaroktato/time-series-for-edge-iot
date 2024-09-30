@@ -51,6 +51,9 @@ SYNCHRONOUS/ASYNCHRONOUS/Batch 2024-09-27 13:53:05 -> 2024-09-27 14:01:11
 - https://community.influxdata.com/t/what-options-do-i-have-to-help-reduce-io-on-an-embedded-system-with-sd-card/5926
 - https://github.com/influxdata/influxdb/issues/23040
 
+### Linux System Template
+- https://github.com/influxdata/community-templates/tree/master/linux_system
+
 ### SQLite
 - https://www.sqlite.org/lockingv3.html#rollback
 
