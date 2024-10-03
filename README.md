@@ -34,6 +34,7 @@ SYNCHRONOUS/ASYNCHRONOUS/Batch 2024-09-27 13:53:05 -> 2024-09-27 14:01:11
 # References
 ## Slides
 - https://docs.google.com/presentation/d/16raJ8wr9D00qKgT_26fGRbnpJajOwEBHkEU76utnVOk/edit?usp=sharing
+- [PDF format](./slides.pdf)
 
 ## Wear Leveling
 - https://industrial.adata.com/en/technology/Wear-Leveling
